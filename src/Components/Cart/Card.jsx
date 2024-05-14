@@ -54,7 +54,7 @@ const Card = () => {
                           />
                         </div>
                       </div>
-                      <div className="col-md-4">
+                      <div className="col-md-4 d-flex justify-content-center align-items-center ">
                         <div className="card-body">
                           <h3 className="card-title fs-1 ">{element.title}</h3>
                           <h5 className="card-title fs-2 ">{element.brand}</h5>
