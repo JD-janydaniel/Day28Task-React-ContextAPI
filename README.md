@@ -9,3 +9,4 @@ Total quantity and total amount</li>
   <li>It needs to increase or decrease the per unit quantity, which should automatically update the total Quantity and Amounts</li>
 </ul>
 <h1>Deployment Link</h1>
+https://stalwart-torte-d530ba.netlify.app/
