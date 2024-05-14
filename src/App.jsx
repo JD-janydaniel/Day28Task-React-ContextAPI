@@ -15,11 +15,11 @@ const App = () => {
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
       images: [
-        "/public/img1a.jpg",
-        "/public/img1b.jpg",
-        "/public/img1a.jpg",
-        "/public/img1b.jpg",
-        "/public/img1a.jpg",
+        "/img1a.jpg",
+        // "/public/img1b.jpg",
+        // "/public/img1a.jpg",
+        // "/public/img1b.jpg",
+        // "/public/img1a.jpg",
       ],
     },
     {
@@ -35,10 +35,10 @@ const App = () => {
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       images: [
-        "/public/img2a.jpg",
-        "/public/img2b.jpg",
-        "/public/img2c.jpg",
-        "/public/img2d.jpg",
+        "/img2a.jpg",
+        // "/public/img2b.jpg",
+        // "/public/img2c.jpg",
+        // "/public/img2d.jpg",
       ],
     },
     {
@@ -53,7 +53,7 @@ const App = () => {
       brand: "Samsung",
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-      images: ["/public/img3a.jpg"],
+      images: ["/img3a.jpg"],
     },
     {
       id: 4,
@@ -67,11 +67,11 @@ const App = () => {
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
       images: [
-        "/public/img4a.jpg",
-        "/public/img4b.jpg",
-        "/public/img4c.jpg",
-        "/public/img4d.jpg",
-        "/public/img4b.jpg",
+        "/img4a.jpg",
+        // "/public/img4b.jpg",
+        // "/public/img4c.jpg",
+        // "/public/img4d.jpg",
+        // "/public/img4b.jpg",
       ],
     },
     {
@@ -87,9 +87,9 @@ const App = () => {
       category: "smartphones",
       thumbnail: "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
       images: [
-        "/public/img5a.jpg",
-        "/public/img5b.jpg",
-        "/public/img5c.jpg",
+        "/img5a.jpg",
+        // "/public/img5b.jpg",
+        // "/public/img5c.jpg",
       ],
     },
   ];
