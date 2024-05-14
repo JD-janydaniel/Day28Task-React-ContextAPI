@@ -1,3 +1,4 @@
+import "../../index.css";
 import React, { useContext } from "react";
 import { myContext } from "../../App";
 
@@ -38,22 +39,19 @@ const Card = () => {
     <>
       <div className="container p-5">
         <div className="row p-5">
-          <div className="col-12">
+          <div className="col-md-12">
             {data.map((element, index) => {
               return (
                 <div key={index}>
-                  <div
-                    className="card mb-5 bg-bg-body-tertiary shadow overflow-auto "
-                    style={{ Width: " 400rem" }}
-                  >
+                  <div className="card mb-5 bg-bg-body-tertiary shadow overflow-auto ">
                     <div className="row g-0">
                       <div className="col-md-3">
                         <div className="img-box text-center ">
-                        <img
-                          src={element.images[0]}
-                          class="img-fluid rounded mt-5 "
-                          alt="..."
-                        />
+                          <img
+                            src={element.images[0]}
+                            class="img-fluid rounded mt-5 "
+                            alt="..."
+                          />
                         </div>
                       </div>
                       <div className="col-md-4">
@@ -87,7 +85,7 @@ const Card = () => {
                           >
                             -
                           </button>
-                          <span className="fs-2 p-3 ">${element.price}</span>
+                          <span className="fs-2 p-3 ">${element.price}.00</span>
                         </div>
                         <div className="d-flex justify-content-center align-items-end  m-5 ">
                           <button
@@ -112,12 +110,13 @@ const Card = () => {
                               $
                               {element.price * element.quantity ||
                                 element.price}
+                              .00
                             </h3>
                           </div>
                           <hr className="ms-2"></hr>
                           <div className="d-flex justify-content-between align-content-center flex-wrap ">
                             <h3 className="fs-2">TOTAL:</h3>
-                            <h3>${totalPrice}</h3>
+                            <h3>${totalPrice}.00</h3>
                           </div>
                         </div>
                       </div>
